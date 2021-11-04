@@ -1,0 +1,78 @@
+2021-08-09 10:13:36,974:INFO:root:Results created in /workspace/data/randerson/NorthPond/NORP83/NORP83_g3_2
+2021-08-09 10:13:36,975:INFO:root:Set fixed seed for random position selection = 238329
+2021-08-09 10:13:36,985:INFO:root:Running Desman with 4 samples and 264 variant positions finding 3 genomes.
+2021-08-09 10:13:36,985:INFO:root:Set eta error transition matrix from = <_io.TextIOWrapper name='NORP83_outtran_df.csv' mode='r' encoding='UTF-8'>
+2021-08-09 10:13:36,988:INFO:root:Set second adjustable random seed = 23724839
+2021-08-09 10:13:36,990:INFO:root:Perform NTF initialisation
+2021-08-09 10:13:37,006:INFO:root:NTF Iter 0, div = 819.532839
+2021-08-09 10:13:37,576:INFO:root:NTF Iter 100, div = 82.372680
+2021-08-09 10:13:38,108:INFO:root:NTF Iter 200, div = 43.255890
+2021-08-09 10:13:38,652:INFO:root:NTF Iter 300, div = 21.118322
+2021-08-09 10:13:39,195:INFO:root:NTF Iter 400, div = 16.247063
+2021-08-09 10:13:39,731:INFO:root:NTF Iter 500, div = 15.491363
+2021-08-09 10:13:40,271:INFO:root:NTF Iter 600, div = 15.370285
+2021-08-09 10:13:40,828:INFO:root:NTF Iter 700, div = 15.319428
+2021-08-09 10:13:41,369:INFO:root:NTF Iter 800, div = 15.302589
+2021-08-09 10:13:41,899:INFO:root:NTF Iter 900, div = 15.288378
+2021-08-09 10:13:42,439:INFO:root:NTF Iter 1000, div = 15.283211
+2021-08-09 10:13:42,973:INFO:root:NTF Iter 1100, div = 15.277637
+2021-08-09 10:13:43,420:INFO:root:Start Gibbs sampler burn-in phase
+2021-08-09 10:13:43,732:INFO:root:Gibbs Iter 0, no. changed = 276, nlp = -10476.960574
+2021-08-09 10:13:46,493:INFO:root:Gibbs Iter 10, no. changed = 41, nlp = -3830.753154
+2021-08-09 10:13:49,119:INFO:root:Gibbs Iter 20, no. changed = 24, nlp = -3747.367698
+2021-08-09 10:13:51,691:INFO:root:Gibbs Iter 30, no. changed = 26, nlp = -3733.779008
+2021-08-09 10:13:54,239:INFO:root:Gibbs Iter 40, no. changed = 28, nlp = -3715.032106
+2021-08-09 10:13:56,894:INFO:root:Gibbs Iter 50, no. changed = 26, nlp = -3733.137053
+2021-08-09 10:13:59,517:INFO:root:Gibbs Iter 60, no. changed = 29, nlp = -3739.278022
+2021-08-09 10:14:02,129:INFO:root:Gibbs Iter 70, no. changed = 20, nlp = -3719.293084
+2021-08-09 10:14:04,699:INFO:root:Gibbs Iter 80, no. changed = 32, nlp = -3704.708428
+2021-08-09 10:14:07,426:INFO:root:Gibbs Iter 90, no. changed = 28, nlp = -3719.645135
+2021-08-09 10:14:09,949:INFO:root:Gibbs Iter 100, no. changed = 25, nlp = -3730.102089
+2021-08-09 10:14:12,790:INFO:root:Gibbs Iter 110, no. changed = 36, nlp = -3719.785276
+2021-08-09 10:14:15,351:INFO:root:Gibbs Iter 120, no. changed = 33, nlp = -3730.762880
+2021-08-09 10:14:18,041:INFO:root:Gibbs Iter 130, no. changed = 32, nlp = -3712.319854
+2021-08-09 10:14:20,592:INFO:root:Gibbs Iter 140, no. changed = 23, nlp = -3705.414410
+2021-08-09 10:14:23,173:INFO:root:Gibbs Iter 150, no. changed = 28, nlp = -3672.566866
+2021-08-09 10:14:25,726:INFO:root:Gibbs Iter 160, no. changed = 30, nlp = -3730.832445
+2021-08-09 10:14:28,275:INFO:root:Gibbs Iter 170, no. changed = 28, nlp = -3701.460544
+2021-08-09 10:14:30,829:INFO:root:Gibbs Iter 180, no. changed = 24, nlp = -3686.355268
+2021-08-09 10:14:33,443:INFO:root:Gibbs Iter 190, no. changed = 18, nlp = -3704.854167
+2021-08-09 10:14:36,122:INFO:root:Gibbs Iter 200, no. changed = 23, nlp = -3689.658734
+2021-08-09 10:14:38,715:INFO:root:Gibbs Iter 210, no. changed = 22, nlp = -3727.126364
+2021-08-09 10:14:41,004:INFO:root:Gibbs Iter 220, no. changed = 27, nlp = -3716.034977
+2021-08-09 10:14:43,565:INFO:root:Gibbs Iter 230, no. changed = 24, nlp = -3679.447451
+2021-08-09 10:14:45,876:INFO:root:Gibbs Iter 240, no. changed = 23, nlp = -3685.354558
+2021-08-09 10:14:48,198:INFO:root:Start Gibbs sampler sampling phase
+2021-08-09 10:14:48,497:INFO:root:Gibbs Iter 0, no. changed = 22, nlp = -3714.005415
+2021-08-09 10:14:50,999:INFO:root:Gibbs Iter 10, no. changed = 22, nlp = -3700.780958
+2021-08-09 10:14:53,652:INFO:root:Gibbs Iter 20, no. changed = 25, nlp = -3710.126203
+2021-08-09 10:14:56,114:INFO:root:Gibbs Iter 30, no. changed = 27, nlp = -3724.534680
+2021-08-09 10:14:58,567:INFO:root:Gibbs Iter 40, no. changed = 31, nlp = -3731.597204
+2021-08-09 10:15:01,062:INFO:root:Gibbs Iter 50, no. changed = 24, nlp = -3685.402079
+2021-08-09 10:15:03,703:INFO:root:Gibbs Iter 60, no. changed = 26, nlp = -3673.501932
+2021-08-09 10:15:06,136:INFO:root:Gibbs Iter 70, no. changed = 21, nlp = -3614.344139
+2021-08-09 10:15:08,620:INFO:root:Gibbs Iter 80, no. changed = 31, nlp = -3696.393550
+2021-08-09 10:15:11,122:INFO:root:Gibbs Iter 90, no. changed = 23, nlp = -3677.918452
+2021-08-09 10:15:13,594:INFO:root:Gibbs Iter 100, no. changed = 23, nlp = -3688.974449
+2021-08-09 10:15:16,109:INFO:root:Gibbs Iter 110, no. changed = 28, nlp = -3691.529156
+2021-08-09 10:15:18,720:INFO:root:Gibbs Iter 120, no. changed = 28, nlp = -3692.278838
+2021-08-09 10:15:21,139:INFO:root:Gibbs Iter 130, no. changed = 19, nlp = -3702.437945
+2021-08-09 10:15:23,623:INFO:root:Gibbs Iter 140, no. changed = 24, nlp = -3692.699686
+2021-08-09 10:15:25,979:INFO:root:Gibbs Iter 150, no. changed = 29, nlp = -3661.144538
+2021-08-09 10:15:28,687:INFO:root:Gibbs Iter 160, no. changed = 37, nlp = -3695.383041
+2021-08-09 10:15:31,230:INFO:root:Gibbs Iter 170, no. changed = 30, nlp = -3699.980095
+2021-08-09 10:15:33,795:INFO:root:Gibbs Iter 180, no. changed = 30, nlp = -3694.910559
+2021-08-09 10:15:36,270:INFO:root:Gibbs Iter 190, no. changed = 20, nlp = -3659.159067
+2021-08-09 10:15:38,792:INFO:root:Gibbs Iter 200, no. changed = 29, nlp = -3663.607573
+2021-08-09 10:15:41,283:INFO:root:Gibbs Iter 210, no. changed = 21, nlp = -3644.276410
+2021-08-09 10:15:43,635:INFO:root:Gibbs Iter 220, no. changed = 26, nlp = -3641.194170
+2021-08-09 10:15:46,051:INFO:root:Gibbs Iter 230, no. changed = 28, nlp = -3687.411794
+2021-08-09 10:15:48,582:INFO:root:Gibbs Iter 240, no. changed = 14, nlp = -3675.595110
+2021-08-09 10:15:50,871:INFO:root:Wrote fit stats
+2021-08-09 10:15:50,899:INFO:root:Wrote filtered tau star haplotype predictions
+2021-08-09 10:15:50,915:INFO:root:Wrote probabilistic tau haplotype predictions
+2021-08-09 10:15:50,920:INFO:root:Wrote gamma haplotype relative frequencies
+2021-08-09 10:15:50,924:INFO:root:Wrote mean gamma haplotype relative frequencies
+2021-08-09 10:15:50,928:INFO:root:Wrote transition error matrix
+2021-08-09 10:15:50,932:INFO:root:Wrote transition error matrix
+2021-08-09 10:15:50,942:INFO:root:Wrote selected variants

@@ -1,0 +1,27 @@
+name	value	type	description
+location	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS	value	Location of SNVprofile object
+version	1.5.4	value	Version of inStrain
+Rdic	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/Rdic.json	dictionary	Read pair -> mismatches
+mapping_info	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/mapping_info.csv.gz	pandas	Report on reads
+fasta_loc	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83.fasta	value	Location of .fasta file used during profile
+scaffold2length	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/scaffold2length.json	dictionary	Dictionary of scaffold 2 length
+object_type	profile	value	Type of SNVprofile (profile or compare)
+bam_loc	82A_T6.sorted_filtered.bam	value	Location of .bam file
+scaffold_list	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/scaffold_list.txt	list	1d list of scaffolds that were profiled
+raw_linkage_table	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/raw_linkage_table.csv.gz	pandas	Raw table of linkage information
+raw_snp_table	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/raw_snp_table.csv.gz	pandas	Contains raw SNP information on a mm level
+cumulative_scaffold_table	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/cumulative_scaffold_table.csv.gz	pandas	Cumulative coverage on mm level. Formerly scaffoldTable.csv
+cumulative_snv_table	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/cumulative_snv_table.csv.gz	pandas	Cumulative SNP on mm level. Formerly snpLocations.pickle
+scaffold_2_mm_2_read_2_snvs	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/scaffold_2_mm_2_read_2_snvs.pickle	pickle	crazy nonsense needed for linkage
+genes_coverage	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/genes_coverage.csv.gz	pandas	Coverage of individual genes
+genes_clonality	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/genes_clonality.csv.gz	pandas	Clonality of individual genes
+genes_SNP_count	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/genes_SNP_count.csv.gz	pandas	SNP density and counts of individual genes
+SNP_mutation_types	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/SNP_mutation_types.csv.gz	pandas	The mutation types of SNPs
+covT	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/covT.hd5	special	Scaffold -> mm -> position based coverage
+clonT	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/clonT.hd5	special	Scaffold -> mm -> position based clonality
+clonTR	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/clonTR.hd5	special	Scaffold -> mm -> rarefied position based clonality
+genes_fileloc	NORP83.prodigal.genecalls.fna	value	Location of genes file that was used to call genes
+genes_table	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/genes_table.csv.gz	pandas	Location of genes in the associated genes_file
+scaffold2bin	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/scaffold2bin.json	dictionary	Dictionary of scaffold 2 bin
+bin2length	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/bin2length.json	dictionary	Dictionary of bin 2 total length
+genome_level_info	/media/imperator/btully/NorthPond/Gretel-Analysis-NPE-MAGs/NORP83-T6.IS/raw_data/genome_level_info.csv.gz	pandas	Table of genome-level information

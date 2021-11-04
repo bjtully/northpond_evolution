@@ -1,0 +1,101 @@
+..:: Overall ::..
+InStrain version 1.5.4 started at 2021-08-31 17:12:56 and ended at 2021-08-31 17:22:19.
+Runtime = 9 minutes, 23 seconds
+Command = /home/btully/miniconda2/envs/instrain/bin/inStrain profile 82A_T4.sorted_filtered.bam NORP83.fasta -o NORP83-T4.IS -p 20 -g NORP83.prodigal.genecalls.fna -l 0.95 --min_mapq 1 -c 20 -f 0.1
+
+..:: Checkpoints ::..
+filter_reads         took 39.0 seconds    ( 6.9% of overall)	RAM went from 215.69 MB to 449.49 MB (increased by 233.80 MB)
+profile_scaffolds    took 4.0 minutes, 51.0 seconds (51.7% of overall)	RAM went from 449.49 MB to 843.95 MB (increased by 394.46 MB)
+genome_wide          took 58.0 seconds    (10.3% of overall)	RAM went from 843.95 MB to 1.21 GB (increased by 392.64 MB)
+making_plots         took 2.0 minutes, 55.0 seconds (31.1% of overall)	RAM went from 1.21 GB to 2.07 GB (increased by 881.48 MB)
+
+..:: Filter reads report ::..
+load_fasta           took <1 second       ( 0.0% of overall)	RAM went from 215.78 MB to 216.20 MB (increased by 428.00 KB)
+get_paired_reads_multi took 7.0 seconds     (17.9% of overall)	RAM went from 216.30 MB to 405.95 MB (increased by 189.65 MB)
+multiprocessing      took 7.0 seconds     (17.9% of overall)	RAM went from 227.54 MB to 405.76 MB (increased by 178.23 MB)
+paired_reads         took 7.0 seconds     (17.9% of overall)	RAM went from 405.95 MB to 426.84 MB (increased by 20.89 MB)
+filter_reads         took 20.0 seconds    (51.3% of overall)	RAM went from 426.84 MB to 449.37 MB (increased by 22.53 MB)
+parse_results        took 4.0 seconds     (10.3% of overall)	RAM went from 449.43 MB to 449.49 MB (increased by 60.00 KB)
+
+Wall time                     	3 seconds
+Total processes used          	20
+Average number processes used 	13.6
+Paralellization efficiency    	68.2%
+Units profiled                	391
+Average time per unit         	<1 second
+Median time per unit          	<1 second
+Maximum unit time             	<1 second
+Longest running unit          	NORP83_53
+Per-process efficiency        	['80.3', '83.1', '83.9', '84.1', '84.3', '84.4', '84.6', '85.0', '85.2', '85.3', '85.5', '85.6', '86.0', '87.2', '87.3', '87.7', '88.0', '89.2', '90.2', '95.7']
+unit per-process strating RAM      	['232.27 MB', '231.97 MB', '232.91 MB', '233.73 MB', '232.77 MB', '233.45 MB', '235.71 MB', '233.20 MB', '233.68 MB', '232.50 MB', '235.45 MB', '217.14 MB', '231.32 MB', '217.27 MB', '233.02 MB', '231.00 MB', '232.82 MB', '233.16 MB', '231.21 MB', '232.24 MB']
+unit per-process final RAM         	['231.24 MB', '231.97 MB', '233.16 MB', '232.06 MB', '231.52 MB', '233.45 MB', '231.17 MB', '231.68 MB', '233.68 MB', '230.04 MB', '235.45 MB', '233.00 MB', '231.32 MB', '230.97 MB', '231.70 MB', '231.00 MB', '232.12 MB', '231.40 MB', '231.21 MB', '216.99 MB']
+unit per-process minimum RAM       	['217.00 MB', '216.45 MB', '217.90 MB', '217.72 MB', '217.89 MB', '217.86 MB', '217.72 MB', '217.81 MB', '217.77 MB', '217.29 MB', '217.94 MB', '217.14 MB', '217.28 MB', '217.27 MB', '217.84 MB', '217.21 MB', '217.41 MB', '217.64 MB', '217.16 MB', '216.99 MB']
+unit per-process maximum RAM       	['233.60 MB', '235.21 MB', '236.14 MB', '237.85 MB', '236.58 MB', '240.10 MB', '236.86 MB', '238.80 MB', '236.14 MB', '235.65 MB', '237.43 MB', '235.40 MB', '234.30 MB', '235.38 MB', '236.39 MB', '234.31 MB', '233.78 MB', '234.13 MB', '235.37 MB', '234.51 MB']
+
+..:: Profile report ::..
+Loading_genes        took <1 second       ( 0.3% of overall)	RAM went from 449.49 MB to 449.49 MB (increased by 4.00 KB)
+initialize_multiprocessing took 3.0 seconds     ( 1.0% of overall)	RAM went from 449.61 MB to 655.11 MB (increased by 205.50 MB)
+SpawningSplitWorkers took <1 second       ( 0.3% of overall)	RAM went from 655.11 MB to 1.10 GB (increased by 473.73 MB)
+TerminatingSplitWorkers took <1 second       ( 0.0% of overall)	RAM went from 6.36 GB to 1.08 GB (decreased by 5.28 GB)
+store_output         took 4.0 seconds     ( 1.4% of overall)	RAM went from 838.11 MB to 843.95 MB (increased by 5.84 MB)
+
+* Profiling splits *
+Wall time                     	3 minutes, 3 seconds
+Total processes used          	20
+Average number processes used 	17.7
+Paralellization efficiency    	88.7%
+Units profiled                	449
+Average time per unit         	7.0 seconds
+Median time per unit          	6.0 seconds
+Maximum unit time             	17.0 seconds
+Longest running unit          	NORP83_41.0
+Per-process efficiency        	['69.5', '73.7', '74.2', '75.0', '76.8', '83.0', '87.7', '90.5', '94.8', '95.1', '95.2', '95.2', '95.9', '96.0', '96.0', '96.3', '96.9', '97.3', '98.3', '99.4']
+unit per-process strating RAM      	['250.12 MB', '222.99 MB', '224.25 MB', '224.20 MB', '223.04 MB', '222.27 MB', '223.55 MB', '223.64 MB', '223.44 MB', '224.05 MB', '223.38 MB', '223.46 MB', '224.23 MB', '224.39 MB', '223.11 MB', '223.29 MB', '249.91 MB', '223.95 MB', '249.44 MB', '223.09 MB']
+unit per-process final RAM         	['268.38 MB', '271.02 MB', '271.86 MB', '267.73 MB', '270.85 MB', '267.46 MB', '266.27 MB', '270.03 MB', '266.48 MB', '270.47 MB', '267.58 MB', '268.90 MB', '266.83 MB', '268.74 MB', '269.52 MB', '266.97 MB', '267.91 MB', '271.46 MB', '269.13 MB', '268.60 MB']
+unit per-process minimum RAM       	['223.51 MB', '222.99 MB', '224.25 MB', '224.20 MB', '223.04 MB', '222.27 MB', '223.55 MB', '223.64 MB', '223.44 MB', '224.05 MB', '223.38 MB', '223.46 MB', '224.23 MB', '224.39 MB', '223.11 MB', '223.29 MB', '222.20 MB', '223.95 MB', '222.78 MB', '223.09 MB']
+unit per-process maximum RAM       	['268.38 MB', '271.02 MB', '271.86 MB', '267.73 MB', '270.85 MB', '267.46 MB', '266.27 MB', '270.03 MB', '266.48 MB', '270.47 MB', '267.58 MB', '268.90 MB', '266.83 MB', '268.74 MB', '269.52 MB', '266.97 MB', '267.91 MB', '271.46 MB', '269.13 MB', '268.60 MB']
+Number of groups              	55
+Average time per group        	59.0 seconds
+Median time per group         	58.0 seconds
+
+* Merging splits and profiling genes *
+Wall time                     	51 seconds
+Total processes used          	20
+Average number processes used 	3.7
+Paralellization efficiency    	18.5%
+Units profiled                	391
+Average time per unit         	<1 second
+Median time per unit          	<1 second
+Maximum unit time             	1.0 second
+Longest running unit          	NORP83_133
+Per-process efficiency        	['15.6', '15.7', '17.3', '17.3', '17.4', '17.5', '17.6', '17.6', '18.0', '18.4', '18.5', '18.7', '19.0', '19.1', '19.4', '19.5', '20.0', '21.4', '22.2', '22.9']
+unit per-process strating RAM      	['202.86 MB', '203.86 MB', '203.79 MB', '205.12 MB', '204.40 MB', '204.50 MB', '204.15 MB', '204.26 MB', '203.14 MB', '203.84 MB', '203.84 MB', '207.16 MB', '203.88 MB', '204.79 MB', '203.45 MB', '202.71 MB', '204.31 MB', '203.21 MB', '204.20 MB', '203.68 MB']
+unit per-process final RAM         	['255.02 MB', '257.83 MB', '257.81 MB', '256.84 MB', '257.80 MB', '269.29 MB', '254.41 MB', '259.66 MB', '320.22 MB', '255.86 MB', '263.18 MB', '267.91 MB', '257.21 MB', '267.17 MB', '263.61 MB', '262.66 MB', '257.76 MB', '255.44 MB', '255.29 MB', '257.98 MB']
+unit per-process minimum RAM       	['202.86 MB', '203.86 MB', '203.79 MB', '205.12 MB', '204.40 MB', '204.50 MB', '204.15 MB', '204.26 MB', '203.14 MB', '203.84 MB', '203.84 MB', '207.16 MB', '203.88 MB', '204.79 MB', '203.45 MB', '202.71 MB', '204.31 MB', '203.21 MB', '204.20 MB', '203.68 MB']
+unit per-process maximum RAM       	['255.02 MB', '257.83 MB', '257.81 MB', '256.84 MB', '257.80 MB', '269.29 MB', '254.41 MB', '259.66 MB', '320.22 MB', '255.86 MB', '263.18 MB', '267.91 MB', '257.21 MB', '267.17 MB', '263.61 MB', '262.66 MB', '257.76 MB', '255.44 MB', '255.29 MB', '257.98 MB']
+Number of groups              	21
+Average time per group        	41.0 seconds
+Median time per group         	41.0 seconds
+
+..:: Geneome level report ::..
+genomeLevel_from_IS  took 56.0 seconds    (100.0% of overall)	RAM went from 843.95 MB to 1.21 GB (increased by 393.37 MB)
+scaffold_info        took <1 second       ( 0.0% of overall)	RAM went from 843.95 MB to 843.95 MB (decreased by 0.0 Byte)
+coverage_info        took 46.0 seconds    (82.1% of overall)	RAM went from 842.20 MB to 1.15 GB (increased by 336.21 MB)
+mapping_info         took <1 second       ( 0.0% of overall)	RAM went from 1.15 GB to 1.15 GB (decreased by 0.0 Byte)
+linkage              took <1 second       ( 0.0% of overall)	RAM went from 1.19 GB to 1.21 GB (increased by 23.51 MB)
+
+..:: Plotting ::..
+Plot 1 took <1 second
+Plot 2 took 1.0 minute, 10.0 seconds
+Plot 3 took <1 second
+Plot 4 took 2.0 seconds
+Plot 5 took <1 second
+Plot 6 took 15.0 seconds
+Plot 7 took 1.0 minute, 7.0 seconds
+Plot 8 took 3.0 seconds
+
+..:: Compare ::..
+
+
+..:: Failures ::..
+No failures

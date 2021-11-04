@@ -1,0 +1,135 @@
+2021-08-13 11:05:36,132:INFO:root:Results created in /workspace/data/randerson/NorthPond/NORP83/NORP83_5_3
+2021-08-13 11:05:36,132:INFO:root:Set fixed seed for random position selection = 238329
+2021-08-13 11:05:36,147:INFO:root:Running Desman with 4 samples and 264 variant positions finding 5 genomes.
+2021-08-13 11:05:36,148:INFO:root:Set eta error transition matrix from = <_io.TextIOWrapper name='NORP83_out2tran_df.csv' mode='r' encoding='UTF-8'>
+2021-08-13 11:05:36,152:INFO:root:Not enough variable positions for random selection 1000 >= 264 using all
+2021-08-13 11:05:36,152:INFO:root:Set second adjustable random seed = 3
+2021-08-13 11:05:36,155:INFO:root:Perform NTF initialisation
+2021-08-13 11:05:36,194:INFO:root:NTF Iter 0, div = 993.007967
+2021-08-13 11:05:37,228:INFO:root:NTF Iter 100, div = 66.946611
+2021-08-13 11:05:38,161:INFO:root:NTF Iter 200, div = 18.829967
+2021-08-13 11:05:39,205:INFO:root:NTF Iter 300, div = 14.752823
+2021-08-13 11:05:40,190:INFO:root:NTF Iter 400, div = 10.369332
+2021-08-13 11:05:41,049:INFO:root:NTF Iter 500, div = 3.931466
+2021-08-13 11:05:41,945:INFO:root:NTF Iter 600, div = 0.639359
+2021-08-13 11:05:42,798:INFO:root:NTF Iter 700, div = 0.188691
+2021-08-13 11:05:43,651:INFO:root:NTF Iter 800, div = 0.089252
+2021-08-13 11:05:44,769:INFO:root:NTF Iter 900, div = 0.054641
+2021-08-13 11:05:46,389:INFO:root:NTF Iter 1000, div = 0.036745
+2021-08-13 11:05:47,259:INFO:root:NTF Iter 1100, div = 0.027706
+2021-08-13 11:05:48,115:INFO:root:NTF Iter 1200, div = 0.022663
+2021-08-13 11:05:48,969:INFO:root:NTF Iter 1300, div = 0.015824
+2021-08-13 11:05:49,822:INFO:root:NTF Iter 1400, div = 0.011186
+2021-08-13 11:05:50,674:INFO:root:NTF Iter 1500, div = 0.009008
+2021-08-13 11:05:51,527:INFO:root:NTF Iter 1600, div = 0.007439
+2021-08-13 11:05:52,382:INFO:root:NTF Iter 1700, div = 0.005829
+2021-08-13 11:05:52,411:INFO:root:Start Gibbs sampler burn-in phase
+2021-08-13 11:05:52,750:INFO:root:Gibbs Iter 0, no. changed = 458, nlp = -8686.810300
+2021-08-13 11:05:55,655:INFO:root:Gibbs Iter 10, no. changed = 186, nlp = -4798.045100
+2021-08-13 11:05:58,473:INFO:root:Gibbs Iter 20, no. changed = 168, nlp = -4619.168506
+2021-08-13 11:06:01,142:INFO:root:Gibbs Iter 30, no. changed = 162, nlp = -4311.503261
+2021-08-13 11:06:03,798:INFO:root:Gibbs Iter 40, no. changed = 146, nlp = -4128.970195
+2021-08-13 11:06:06,450:INFO:root:Gibbs Iter 50, no. changed = 166, nlp = -4136.818128
+2021-08-13 11:06:09,435:INFO:root:Gibbs Iter 60, no. changed = 171, nlp = -4095.816317
+2021-08-13 11:06:12,569:INFO:root:Gibbs Iter 70, no. changed = 166, nlp = -4093.352257
+2021-08-13 11:06:15,677:INFO:root:Gibbs Iter 80, no. changed = 171, nlp = -4103.420989
+2021-08-13 11:06:18,452:INFO:root:Gibbs Iter 90, no. changed = 161, nlp = -4075.556448
+2021-08-13 11:06:22,251:INFO:root:Gibbs Iter 100, no. changed = 175, nlp = -4092.876888
+2021-08-13 11:06:25,966:INFO:root:Gibbs Iter 110, no. changed = 163, nlp = -4034.136224
+2021-08-13 11:06:29,123:INFO:root:Gibbs Iter 120, no. changed = 178, nlp = -4033.107892
+2021-08-13 11:06:32,066:INFO:root:Gibbs Iter 130, no. changed = 176, nlp = -4051.762122
+2021-08-13 11:06:34,770:INFO:root:Gibbs Iter 140, no. changed = 168, nlp = -4049.875754
+2021-08-13 11:06:37,600:INFO:root:Gibbs Iter 150, no. changed = 168, nlp = -4070.861609
+2021-08-13 11:06:40,535:INFO:root:Gibbs Iter 160, no. changed = 181, nlp = -4063.323189
+2021-08-13 11:06:43,405:INFO:root:Gibbs Iter 170, no. changed = 182, nlp = -4052.187807
+2021-08-13 11:06:46,410:INFO:root:Gibbs Iter 180, no. changed = 162, nlp = -4032.663323
+2021-08-13 11:06:49,114:INFO:root:Gibbs Iter 190, no. changed = 164, nlp = -4007.884139
+2021-08-13 11:06:51,850:INFO:root:Gibbs Iter 200, no. changed = 166, nlp = -4022.345047
+2021-08-13 11:06:54,560:INFO:root:Gibbs Iter 210, no. changed = 174, nlp = -3980.531929
+2021-08-13 11:06:57,261:INFO:root:Gibbs Iter 220, no. changed = 175, nlp = -4035.769369
+2021-08-13 11:06:59,963:INFO:root:Gibbs Iter 230, no. changed = 161, nlp = -3975.806703
+2021-08-13 11:07:02,832:INFO:root:Gibbs Iter 240, no. changed = 173, nlp = -4003.149443
+2021-08-13 11:07:05,774:INFO:root:Gibbs Iter 250, no. changed = 170, nlp = -4039.251548
+2021-08-13 11:07:08,490:INFO:root:Gibbs Iter 260, no. changed = 167, nlp = -4046.736968
+2021-08-13 11:07:11,194:INFO:root:Gibbs Iter 270, no. changed = 161, nlp = -4020.405350
+2021-08-13 11:07:13,892:INFO:root:Gibbs Iter 280, no. changed = 168, nlp = -4028.976148
+2021-08-13 11:07:16,694:INFO:root:Gibbs Iter 290, no. changed = 170, nlp = -3974.842341
+2021-08-13 11:07:19,982:INFO:root:Gibbs Iter 300, no. changed = 166, nlp = -3985.645003
+2021-08-13 11:07:23,578:INFO:root:Gibbs Iter 310, no. changed = 163, nlp = -3921.655849
+2021-08-13 11:07:26,596:INFO:root:Gibbs Iter 320, no. changed = 177, nlp = -3960.666520
+2021-08-13 11:07:29,238:INFO:root:Gibbs Iter 330, no. changed = 164, nlp = -3963.788814
+2021-08-13 11:07:31,889:INFO:root:Gibbs Iter 340, no. changed = 162, nlp = -3964.075381
+2021-08-13 11:07:34,547:INFO:root:Gibbs Iter 350, no. changed = 163, nlp = -3963.266993
+2021-08-13 11:07:37,757:INFO:root:Gibbs Iter 360, no. changed = 155, nlp = -3954.439402
+2021-08-13 11:07:40,380:INFO:root:Gibbs Iter 370, no. changed = 152, nlp = -3956.246450
+2021-08-13 11:07:43,394:INFO:root:Gibbs Iter 380, no. changed = 154, nlp = -3923.143503
+2021-08-13 11:07:46,093:INFO:root:Gibbs Iter 390, no. changed = 170, nlp = -3933.678647
+2021-08-13 11:07:48,794:INFO:root:Gibbs Iter 400, no. changed = 171, nlp = -3904.912390
+2021-08-13 11:07:51,492:INFO:root:Gibbs Iter 410, no. changed = 169, nlp = -3961.359402
+2021-08-13 11:07:54,182:INFO:root:Gibbs Iter 420, no. changed = 154, nlp = -3954.699157
+2021-08-13 11:07:56,872:INFO:root:Gibbs Iter 430, no. changed = 164, nlp = -3967.807460
+2021-08-13 11:07:59,591:INFO:root:Gibbs Iter 440, no. changed = 161, nlp = -3906.493980
+2021-08-13 11:08:02,277:INFO:root:Gibbs Iter 450, no. changed = 159, nlp = -3924.340191
+2021-08-13 11:08:04,968:INFO:root:Gibbs Iter 460, no. changed = 173, nlp = -3941.684638
+2021-08-13 11:08:07,669:INFO:root:Gibbs Iter 470, no. changed = 163, nlp = -3976.784192
+2021-08-13 11:08:10,357:INFO:root:Gibbs Iter 480, no. changed = 162, nlp = -3943.342939
+2021-08-13 11:08:13,054:INFO:root:Gibbs Iter 490, no. changed = 154, nlp = -3961.258970
+2021-08-13 11:08:15,691:INFO:root:Start Gibbs sampler sampling phase
+2021-08-13 11:08:16,004:INFO:root:Gibbs Iter 0, no. changed = 180, nlp = -3976.332540
+2021-08-13 11:08:18,674:INFO:root:Gibbs Iter 10, no. changed = 166, nlp = -3961.055136
+2021-08-13 11:08:21,357:INFO:root:Gibbs Iter 20, no. changed = 158, nlp = -3975.112534
+2021-08-13 11:08:24,007:INFO:root:Gibbs Iter 30, no. changed = 150, nlp = -3945.126361
+2021-08-13 11:08:26,657:INFO:root:Gibbs Iter 40, no. changed = 172, nlp = -3956.899783
+2021-08-13 11:08:29,306:INFO:root:Gibbs Iter 50, no. changed = 170, nlp = -3932.780270
+2021-08-13 11:08:31,964:INFO:root:Gibbs Iter 60, no. changed = 159, nlp = -3950.401248
+2021-08-13 11:08:34,609:INFO:root:Gibbs Iter 70, no. changed = 160, nlp = -3894.333792
+2021-08-13 11:08:37,248:INFO:root:Gibbs Iter 80, no. changed = 156, nlp = -3919.732904
+2021-08-13 11:08:39,896:INFO:root:Gibbs Iter 90, no. changed = 173, nlp = -3947.340299
+2021-08-13 11:08:42,536:INFO:root:Gibbs Iter 100, no. changed = 175, nlp = -3978.330236
+2021-08-13 11:08:45,184:INFO:root:Gibbs Iter 110, no. changed = 169, nlp = -3947.422023
+2021-08-13 11:08:47,834:INFO:root:Gibbs Iter 120, no. changed = 161, nlp = -3962.982825
+2021-08-13 11:08:50,483:INFO:root:Gibbs Iter 130, no. changed = 170, nlp = -3965.763544
+2021-08-13 11:08:53,127:INFO:root:Gibbs Iter 140, no. changed = 166, nlp = -3912.810087
+2021-08-13 11:08:55,776:INFO:root:Gibbs Iter 150, no. changed = 176, nlp = -3917.871982
+2021-08-13 11:08:58,423:INFO:root:Gibbs Iter 160, no. changed = 163, nlp = -3968.479103
+2021-08-13 11:09:01,067:INFO:root:Gibbs Iter 170, no. changed = 172, nlp = -3945.470951
+2021-08-13 11:09:03,706:INFO:root:Gibbs Iter 180, no. changed = 165, nlp = -3917.240243
+2021-08-13 11:09:06,352:INFO:root:Gibbs Iter 190, no. changed = 155, nlp = -3963.903782
+2021-08-13 11:09:09,001:INFO:root:Gibbs Iter 200, no. changed = 167, nlp = -3907.073869
+2021-08-13 11:09:11,656:INFO:root:Gibbs Iter 210, no. changed = 162, nlp = -3916.963665
+2021-08-13 11:09:14,305:INFO:root:Gibbs Iter 220, no. changed = 172, nlp = -3928.172643
+2021-08-13 11:09:16,957:INFO:root:Gibbs Iter 230, no. changed = 171, nlp = -3940.419590
+2021-08-13 11:09:19,606:INFO:root:Gibbs Iter 240, no. changed = 162, nlp = -3911.383657
+2021-08-13 11:09:22,258:INFO:root:Gibbs Iter 250, no. changed = 167, nlp = -3882.260623
+2021-08-13 11:09:24,902:INFO:root:Gibbs Iter 260, no. changed = 162, nlp = -3899.119583
+2021-08-13 11:09:27,554:INFO:root:Gibbs Iter 270, no. changed = 170, nlp = -3892.936788
+2021-08-13 11:09:30,203:INFO:root:Gibbs Iter 280, no. changed = 161, nlp = -3969.019371
+2021-08-13 11:09:32,843:INFO:root:Gibbs Iter 290, no. changed = 160, nlp = -3913.649179
+2021-08-13 11:09:35,490:INFO:root:Gibbs Iter 300, no. changed = 160, nlp = -3935.793731
+2021-08-13 11:09:38,140:INFO:root:Gibbs Iter 310, no. changed = 172, nlp = -3896.708038
+2021-08-13 11:09:40,782:INFO:root:Gibbs Iter 320, no. changed = 148, nlp = -3930.741682
+2021-08-13 11:09:43,431:INFO:root:Gibbs Iter 330, no. changed = 165, nlp = -3955.507045
+2021-08-13 11:09:46,073:INFO:root:Gibbs Iter 340, no. changed = 157, nlp = -3938.797495
+2021-08-13 11:09:48,716:INFO:root:Gibbs Iter 350, no. changed = 151, nlp = -3940.107415
+2021-08-13 11:09:51,369:INFO:root:Gibbs Iter 360, no. changed = 161, nlp = -3867.301167
+2021-08-13 11:09:54,017:INFO:root:Gibbs Iter 370, no. changed = 168, nlp = -3941.763400
+2021-08-13 11:09:56,669:INFO:root:Gibbs Iter 380, no. changed = 150, nlp = -3916.695719
+2021-08-13 11:09:59,314:INFO:root:Gibbs Iter 390, no. changed = 172, nlp = -3963.256767
+2021-08-13 11:10:01,969:INFO:root:Gibbs Iter 400, no. changed = 145, nlp = -3927.753151
+2021-08-13 11:10:04,634:INFO:root:Gibbs Iter 410, no. changed = 151, nlp = -3943.021471
+2021-08-13 11:10:07,293:INFO:root:Gibbs Iter 420, no. changed = 144, nlp = -3902.820924
+2021-08-13 11:10:09,947:INFO:root:Gibbs Iter 430, no. changed = 166, nlp = -3945.005510
+2021-08-13 11:10:12,587:INFO:root:Gibbs Iter 440, no. changed = 164, nlp = -3904.735362
+2021-08-13 11:10:15,387:INFO:root:Gibbs Iter 450, no. changed = 160, nlp = -3941.501907
+2021-08-13 11:10:18,181:INFO:root:Gibbs Iter 460, no. changed = 161, nlp = -3919.679349
+2021-08-13 11:10:20,869:INFO:root:Gibbs Iter 470, no. changed = 165, nlp = -3932.103945
+2021-08-13 11:10:23,555:INFO:root:Gibbs Iter 480, no. changed = 154, nlp = -3935.538724
+2021-08-13 11:10:26,240:INFO:root:Gibbs Iter 490, no. changed = 150, nlp = -3915.972381
+2021-08-13 11:10:28,687:INFO:root:Wrote fit stats
+2021-08-13 11:10:28,717:INFO:root:Wrote filtered tau star haplotype predictions
+2021-08-13 11:10:28,748:INFO:root:Wrote probabilistic tau haplotype predictions
+2021-08-13 11:10:28,753:INFO:root:Wrote gamma haplotype relative frequencies
+2021-08-13 11:10:28,758:INFO:root:Wrote mean gamma haplotype relative frequencies
+2021-08-13 11:10:28,763:INFO:root:Wrote transition error matrix
+2021-08-13 11:10:28,768:INFO:root:Wrote transition error matrix
+2021-08-13 11:10:28,782:INFO:root:Wrote selected variants
