@@ -2,13 +2,13 @@
 
 Scripts used to process data and generate figures for the 2022 version of manuscript. For this repo, scripts have been modified to work with a limited number of examples. We apologize that the scripts are not more polished and are in slightly different styles. The code might not be useful for running your samples without modification, but there should be suitable information to customize scripts that process your data in a similar manner. Both Drs. Anderson and Tully are biologists before they are coders! :) 
 
-##RPKM-plots
+## RPKM-plots
 
 Dependencies: `numpy`, `pandas`, `seaborn`, `matplotlib`
 
 `make_bubble_plots_binsofinterest.py` reads in the summary file `SNV-SAAV-bloomers-persisters-RPKMmin10-NEW-RPKM.txt` which contains multiple column headers but produces a plot of polymorphisms over time with data point size related to RPKM.
 
-##allele-frequency-plots
+## allele-frequency-plots
 
 Dependencies: `numpy`, `pandas`, `seaborn`, `matplotlib`
 
@@ -18,7 +18,7 @@ Dependencies: `numpy`, `pandas`, `seaborn`, `matplotlib`
 python make_allelefreq_clustermaps_allSNVs.py NORP83_SNV_allele_tracking_allSNVs.txt s82A_T1_SORTED_FILTERED,s82A_T3_SORTED_FILTERED,s82A_T4_SORTED_FILTERED,s82A_T6_SORTED_FILTERED
 ```
 
-##gene-frequency-calc
+## gene-frequency-calc
 
 Dependencies: `numpy`, `pandas`, `seaborn`, `matplotlib`
 
@@ -42,7 +42,7 @@ The script `make_genecov_clustermap_specific_genes.py` creates a clustered heatm
 python make_genecov_clustermap_specific_genes.py *_gene_cov_detection-GENE-COVERAGES-genefreq-script.txt s82A_T0,s82A_T1,s82A_T2,s82A_T7,s82A_T8
 ```
 
-##DESMAN-calc
+## DESMAN-calc
 
 Dependencies: `DESMAN`, `python==2.X`, `pandas`
 
@@ -70,7 +70,7 @@ python run_DESMAN_triplicate.py NORP83
 
 Step 5: In a directory for the MAG of interest - `compile_posterior_dist_DESMAN.py` - compiles the posterior probabilities for the multiple iterations for further interpretation.
 
-##inStrain-calc
+## inStrain-calc
 Dependencies: `inStrain`
 
 Requires access to filtered BAM files: `SORTED-FILTERED.tar.gz`. They can be accessed through the figshare repository: ADDRESS
@@ -82,20 +82,20 @@ Both `calculate-four-gamete-test.py` and `calculate-Fst-from-inStrain-SNV-table.
 
 `Determine-Elevated-Fst-Window.ipynb` assumes that `*Fst.tsv` are created by `calculate-Fst-from-inStrain-SNV-table.py` prior to running.
 
-##mcorr-calc
+## mcorr-calc
 Dependencies: `mcorr`
 
 
 Requires access to filtered BAM files: `SORTED-FILTERED.tar.gz`. They can be accessed through the figshare repository: ADDRESS
 
-##gretel-calc
+## gretel-calc
 Dependencies: `gretel.yml` file contains expected dependencies
 
 Gretel is a single threaded application that can be VERY time consuming for large datasets, this script uses `concurrent` to multithread the command, speeding up computation time
 
 Requires access to filtered BAM files: `SORTED-FILTERED.tar.gz`. They can be accessed through the figshare repository: ADDRESS
 
-##dNdS-calc
+## dNdS-calc
 Dependencies: `biopython`, `concurrent`, `cd-hit`, `pal2nal.pl`, `muscle`, `codeml`, `plotly`
 
 `batch-prep-dNdS.py` consumes the Gretel output directories and performs CD-HIT to determine the number of identical haplotypes and isoforms created. Then runs PAL2NAL and creates a CODEML control file.
